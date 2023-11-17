@@ -1,0 +1,310 @@
+.first_container{
+    margin-top: 2cm;
+    text-align: center;
+}
+.first_container img{
+    margin-top: 2cm;
+}
+.design img{
+    width: 20cm;
+    text-align: center;
+    margin-top: 2cm;
+    margin-left: 3cm;
+}
+.me{
+    background: #6e07f3;
+    position: relative;
+    color: white;
+    margin-top: -105px;
+}
+.second_container{
+   width: var(--container-width-lg);
+   width: 45%;
+    text-align: center;
+    margin-left: 9cm;   
+}
+
+
+.courses_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem; 
+    margin-top: 40px;
+}
+.course{
+    background: white;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 30px;
+}
+.course:hover{
+    background: transparent;
+    /* border-color: var(--color-primary); */
+}
+.course_info{
+    padding: 2rem;
+}
+.course_info p{
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+}
+span p{
+    margin-top: 1cm;
+    color: #1448b0;
+    font-size: 20px;
+}
+.third-p{ 
+    display: flex;
+    gap:4rem;
+}
+.third-p-2{
+    display: flex;
+    gap: 4rem;
+    margin-left: -0.9cm;
+    margin-top: 30px;
+}
+.fourth{
+    text-align: center;
+}
+.fourth p{
+    font-size: 20px;
+    margin-top: -1cm;
+}
+
+.btn{
+    border: 3px solid #1448b0;
+    width: 8cm;
+    background: white;
+    height: 1.4cm;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #1448b0;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.btn:hover{
+    background: #1448b0;
+    color: var(--color-white);
+     border-color: 1px solid white;
+     color: white;
+}
+.bxs-message-dots{
+    margin-right: 7px;
+    margin-top: 3px;
+    
+}
+.fifth img{
+    width: 100px;
+    margin-top: 30px;
+}
+.fifth .matt{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.fifth h4{
+    margin-top: 20px;
+}
+.fifth h6{
+    margin-top: 7px;
+    font-size: 14px;
+}
+.laptop{
+    display: flex;
+    background: rgb(6, 28, 107);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-bottom: 60px;
+}
+.laptop_left h1{
+    margin-left: 30px;
+    align-items: center;
+    
+}
+.laptop_middle p{
+    margin-left: 50px;
+    font-size: 20px;
+    align-items: center;
+}
+.bt{
+    border: 3px solid #1448b0;
+    width: 8cm;
+    background: white;
+    height: 1.4cm;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #1448b0;
+    cursor: pointer;
+    margin-left: 50px;
+    border-radius: 40px;
+}
+.bt:hover{
+    background: #1448b0;
+    color: var(--color-white);
+     border-color: 1px solid white;
+     color: white;
+}
+footer{
+    text-align: center;
+    background: #1448b0;
+    color: white;
+}
+footer h5{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.learning{
+    display: flex;
+    /* margin-left: 14.2cm; */
+    margin: 20px auto;
+    justify-content: center;
+    /* margin-top: 20px; */
+    /* align-items: center; */
+    gap: 2rem;
+}
+.learning img{
+    border-radius: 18px;
+    width: 30px;
+}
+footer h6{
+    margin-top: 10px;
+}
+
+
+
+
+
+/* ===============================media tablet view */
+@media screen and (max-width: 1024px){
+    .first_container{
+        text-align: center;
+     }
+    .design {
+        margin-left: -3.5cm;
+    }
+    .second_container{
+        width: 80%;
+        margin-left: 2cm;
+    }
+    .second_container h3{
+        margin-bottom: 1cm;
+        font-size: 30px;
+    }
+    .courses_container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .third-p{
+        flex-direction: column;
+        width: 350px;
+        align-items: center;
+        margin-left: 4cm;
+    }
+    .third-p-2{
+        flex-direction: column;
+        width: 350px;
+        align-items: center;
+        margin-left: 4cm;
+    }
+    .laptop{
+        flex-direction: column;
+        }
+        .laptop_left h1{
+            margin-bottom: 9px;
+        }
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile phone views=========================== */
+@media  screen and (max-width: 600px) {
+        .first_container{
+            text-align: center;
+            margin-left: 1.3cm;
+        }
+        .design img{
+            width: 9cm;
+            margin-left: 5cm;
+            margin-top: 1cm;
+        }
+        .second_container{
+            margin-left: 1cm;
+            font-size: 15px;
+        }
+        .courses_container{
+            grid-template-columns: 1fr;
+        }
+        .courses_container{
+            margin-left: 12px;
+        }
+        .proud{
+            margin-left: 1.5cm;
+        }
+        .third-p{
+            margin-left: 3cm;
+            width: 200px;
+        }
+        .third-p-2{
+            width: 200px;
+            margin-left: 3cm;
+        }
+        .fourth{
+            text-align: center;
+            margin-left: 2cm;
+        }
+        
+    .fifth{
+        text-align: center;
+    }
+    .fifth p{
+        margin-left: 1.5cm;
+    }
+    .fifth img{
+        margin-left: 1cm;
+    }
+    .laptop{
+        flex-direction: column;
+        margin-left: 2cm;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .bt{
+        margin-left: 0.5cm;
+        width: 5cm;
+    }
+    .laptop_left h1{
+        margin-left: 2px;
+    }
+    .laptop_middle p{
+        margin-left: 1px;
+    }
+    .footer_socials{
+        justify-content: center;
+    }
+    footer h5{
+        font-size: 20px;
+    }
+    
+}

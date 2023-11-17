@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="home.css">
+    <title>Contact Page</title>
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="home.html"><h2 class="them">SANUSI</h2></a>
+            <ul class="nav_menu">
+                <li><a href="">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="blue" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg></button>
+            <button id="close-menu-btn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" fill="blue" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+              </svg></button>           
+        </div> 
+    </nav> 
+    <!-- navbar ended========================================== -->
+        <section class="container">
+            <div class="plate">
+                <img src="images/mf-avatar.svg" alt="">
+                <h2>Thanks for taking the time to reach <br>out. How can I help you today?</h2>
+        </section>
+        <section class="contact">
+            <div class="container contact_container">
+                <aside class="contact_aside">
+                    <h2 style="margin-top: 3cm;">Contact Me</h2>
+                    <p></p>
+                        <ul class="contact_details">
+                            <li>
+                               <a href=""><i class='bx bx-phone-call'></i></a>
+                            <h5>+2349032682520</h5>
+                            </li>
+                            <li>
+                                <a href=""><i class='bx bx-envelope'></i></a>
+                                <h5>support@sanusifaruq007@gmail.com</h5>
+                            </li>
+                            <li>
+                                <a href=""><i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                  </svg></i></a>
+                                <h5>Ogun-state, Nigeria</h5>
+                            </li>
+                            </ul>
+                            <ul class="contact_socials">
+                                <li><a href="https://facebook.com"><i class='bx bxl-facebook'></i></a></li>
+                                <li><a href="https://instagram.com"><i class='bx bxl-instagram'></i></a></li>
+                                <li><a href="https://twitter.com"><i class='bx bxl-twitter'></i></a></li>
+                                <li><a href="https://linkedin.com"><i class='bx bxl-linkedin'></i></a></li>
+                            </ul>
+                </aside>
+                <form  action="https://formspree.io/f/xoqobvvy" method="POST" class="contact_form">
+                    <div class="form_name">
+                        <input type="text" name="First Name" placeholder="First Name" required>
+                        <input type="text" name="Last Name" placeholder="Last Name" required>
+                    </div>
+                    <input type="email" name="Email Address" placeholder="Your Email Address" required>
+                    <textarea name="Message" rows="7" placeholder="Message" required></textarea>
+                    <button type="submit" class="mosh" onclick="myFunction()">Submit</button>
+                    
+
+                </form>
+            </div>
+            </section>
+    <!-- ==========================ended==================== -->
+    <footer>
+        <a href="about.html"><h2 style="color: white; padding-top: 5cm;">SANUSI</h2></a>
+        <h5>Living, learning, & leveling up <br>one day at a time.</h5>
+        <div class="learning">
+            <a href="https://www.whatsapp.com/" target="_blank"><img src="images/whatsapp_icon.png" alt=""></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt=""></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt=""></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="images/3225183_app_logo_media_popular_social_icon.png" alt=""></a>
+            <a href="" target="_blank"><img src="images/github.png" alt=""></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt=""></a>
+        </div>
+        <h6>Handcrafted by me &copytwentytwentythree</h6>
+        <h6>Made with Vs code</h6>
+    </footer>
+    <script src="./main.js"></script>
+    <script>
+    function  myFunction() {
+        alert("processing your request");
+        }
+    </script> 
+</body>
+</html>

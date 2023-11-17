@@ -1,0 +1,158 @@
+.plate{
+    text-align: center;
+    margin-bottom: -6cm ;
+}
+.plate img{
+    width: 100px;
+}
+.mosh{
+    color: #1448b0;
+    text-align: center;
+    background-color: white;
+    width: 5cm;
+    height: 1.5cm;
+    margin-left: 3cm;
+    align-items: center;
+    border-radius: 10px;
+}
+.mosh:hover{
+    background: transparent;
+    transition: 4s ease-out;
+    color: white;
+}
+
+
+
+
+
+.contact_container{
+    background: #1448b0;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+     height: 30rem;
+     color: white;
+     margin: 7rem auto;
+     border-radius: 1rem;
+}
+/* ============== */
+.contact_aside{
+    padding: 3rem;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 10rem;
+}
+.aside_image{
+    width: 12rem;
+    margin-bottom: 2rem;
+}
+.contact_aside h2{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.contact_aside p{
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+.contact_details li{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.contact_socials {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 3rem;
+}
+.contact_socials a{
+    background: white;
+    padding: 0.5rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+}
+.contact_socials a:hover{
+    background: transparent;
+}
+/* ======================================== */
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-right: 4rem;
+}
+.form_name{
+    display: flex;
+    gap: 1.2rem;
+}
+.contact_form input [type="text"] {
+    width: 50%;
+    background: red;
+}
+input, textarea{
+    width: 100%;
+    padding: 1rem;
+    background: white;
+    color: black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.contact_form .btn{
+    width: max-content;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+/* ============================================================================== */
+@media screen and (max-width: 1024px){
+    .contact{
+        padding-bottom: 0;
+}
+.contact_container{
+    gap: 1.5rem;
+    margin-top: 3rem;
+    height: auto;
+    padding: 1.5rem;
+    /* margin-right : -3cm; */
+}
+
+.contact_aside{
+    width: auto;
+    padding: 1.5rem;
+    bottom: 0;
+}
+.contact_form{
+    align-self: center;
+    margin-right: 1.5rem;
+}
+}
+/* ===================================================== */
+
+@media screen and (max-width: 600px){
+    .contact_container{
+        grid-template-columns: 1fr;
+        gap: 3rem; 
+        margin-top: 0;
+        padding: 0;
+    }
+    .contact{
+        margin-left: 1cm;
+    }
+    .plate{
+        margin-left: 1cm;
+    }
+    .contact_form{
+        margin: 0 1.5rem 3rem;
+    }
+    .form_name{
+        flex-direction: column;
+    }
+    .form_name input[type="text"] {
+        width: 100%;
+    }
+    .mosh{
+        margin-left: 1cm;
+    }
+}
